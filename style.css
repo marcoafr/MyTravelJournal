@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    background-color: #F55A5A;
+    display: inline-flex;
+    height: 55px;
+    width: 100%;
+        color: #FFFFFF;
+    align-items: center;
+    align-content: center;
+
+}
+
+.nav--title {
+    background-color: #F55A5A;
+    font-weight: 400;
+}
+.globe--image {
+    height: 55px;
+    padding: 13px;
+    padding-right: 5px;
+    background-color: #F55A5A;
+}
+
+.card--image {
+    width: 120px;
+    height: 168px; 
+    object-fit: cover;
+    border: 2px dotted black;
+    border-radius: 10px;
+}
+
+.card {
+    display: inline-flex;
+    color: #2B283A;
+    margin: 40px;
+    margin-bottom: 0px;
+}
+
+.div--image {
+    
+}
+
+.div--content {
+    color: #2B283A;
+    margin-left: 20px;
+    align-items: left;
+    align-content: left;
+}
+
+.card--location--image {
+    height:15.5px;
+    align-self: center;
+}
+
+.card--location--place {
+    text-align: left;
+    font-size: 31.5px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    font-family: Inter;
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+
+.line1 {
+    display: inline-flex;
+    text-align: left;
+    align-content: left;
+    align-items: left;
+    margin-bottom: -50px;
+}
+
+.card--location--country {
+    font-size: 15.5px;
+    font-weight: 400;
+    font-family: Inter;
+    letter-spacing: 3px;
+    align-self: center;
+    
+}
+
+.card--location--google {
+    font-size: 11.5px;
+    font-weight: 400;
+    font-family: Inter;
+    margin-left: 10px;
+    align-self: center;
+    color: grey;
+}
+
+a {
+        color: grey;
+}
+
+.card--location--date {
+    text-align: left;
+    font-size: 14.0px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    margin-bottom: -05px;
+}
+
+.card--location--description {
+        text-align: left;
+        max-width: 800px;
+    font-size: 12.0px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: Inter;
+}
